@@ -1,0 +1,68 @@
+ul,
+li,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.main_content {
+  overflow-y: hidden;
+}
+
+.select_content {
+  position: relative;
+}
+
+.select_content_dimmer {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+}
+
+.open_options p {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.open_options {
+  padding: 8px 12px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.338);
+  transition: 0.38s background;
+}
+
+.open_options:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.438);
+}
+
+.content_options {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: white;
+  width: 100%;
+  list-style: none;
+  max-height: 250px;
+  overflow-y: scroll;
+  z-index: 40;
+}
+
+.content_options.active {
+  display: block;
+}
+
+.li_option {
+  padding: 12px;
+  font-size: 18px;
+  color: black;
+  background-color: transparent;
+  transition: 0.38s background;
+}
+
+.li_option:hover {
+  cursor: pointer;
+  background-color: burlywood;
+}

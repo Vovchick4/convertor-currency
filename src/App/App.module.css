@@ -1,0 +1,11 @@
+.main_wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  background-color: blueviolet;
+}

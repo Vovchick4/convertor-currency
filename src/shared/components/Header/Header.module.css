@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.content_currencies {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  overflow-x: scroll;
+}
+
+td,
+th {
+  border: 1px solid grey;
+}
